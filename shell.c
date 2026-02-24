@@ -58,9 +58,9 @@ void handle_command(char* input) {
 
 
 void cmd_help() {
-    print_string("Comandos disponiveis:\n");
+    print_string("COMANDS\n");
     print_string("  help   - Show this list\n");
-    print_string("  clear  - Clear screen (depende da sua implementacao)\n");
+    print_string("  clear  - Clear screen\n");
     print_string("  reboot - Restart System\n");
 }
 
@@ -70,4 +70,5 @@ void cmd_reboot() {
 
 void cmd_clear() {
     print_string("Cleaning screen...\n");
+
 }
