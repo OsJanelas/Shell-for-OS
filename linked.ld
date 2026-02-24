@@ -1,3 +1,5 @@
+/* MADE WITH GEMINI /*
+
 ENTRY(_start)
 SECTIONS
 {
@@ -6,4 +8,5 @@ SECTIONS
     .text : { *(.text) }   /* Código do Shell e Kernel */
     .data : { *(.data) }   /* Variáveis e Logos ASCII */
     .bss  : { *(.bss)  }   /* Memória temporária */
+
 }
