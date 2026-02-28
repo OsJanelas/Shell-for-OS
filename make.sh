@@ -9,3 +9,5 @@ ld -m elf_i386 -T linker.ld -o fullkernel kernel.o shell.o
 
 echo "Generating IMG File"
 grub-mkrescue -o ShellExample.img Shell/
+
+runner.bat
